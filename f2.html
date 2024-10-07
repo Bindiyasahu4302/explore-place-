@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner SPA</title>
+    <link rel="stylesheet" href="f2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Explore Popular Destinations</h1>
+    </header>
+
+    <section class="search-section">
+        <input type="text" id="search" placeholder="Search destinations...">
+        <button onclick="searchDestinations()">Search</button>
+        <button onclick="clearSearch()"> Search History </button>
+    </section>
+
+    <main>
+        <section class="destinations" id="destinations">
+            <h2>Destinations</h2>
+        </section>
+
+        <section class="itinerary">
+            <h2>Your Itinerary</h2>
+            <ul id="itinerary-list"></ul>
+            <button onclick="clearItinerary()">Clear Itinerary</button>
+        </section>
+    </main>
+
+    <script src="f2.js"></script>
+</body>
+</html>
